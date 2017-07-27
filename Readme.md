@@ -9,7 +9,6 @@
 - Provide name of linked container, port for FPM as env vars on startup
 - Uses `envsubst` to substitute placeholders in default nginx config file
 - Use shared volume (or bind-mounts) to share static files
-
 - E.g. in `docker-compose.yml`:
 
 ```yml
